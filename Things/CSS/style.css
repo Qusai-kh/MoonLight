@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc((100% - 277px) / 4);
+    margin: 28px 165px;
+}
+.Links ul{
+    display: flex;
+    gap: 60px;
+}
+.Icons ul{
+    display: flex;
+    gap: 24px;
+}
+.eCommerceCardsV1{
+    display: flex;
+    width: 255px;
+    gap: 30px;
+    text-align: center;
+    margin: 28px 165px;
+}
